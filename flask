@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-19T02:45:01.000Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="J1Wg3YOyHfI7eh1Ljas_" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-19T02:48:54.258Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="9XLjblQbryQcAWwZfnnl" version="14.4.9" type="github">
   <diagram id="dA5K2_IR0gZ-EK0BbZfx" name="Page-1">
     <mxGraphModel dx="782" dy="380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -119,8 +119,20 @@
         <mxCell id="DgfdKiEPFyF7movfGa1D-47" value="render template&lt;br&gt;melon_details.html with melon_id info" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="690" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="DgfdKiEPFyF7movfGa1D-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DgfdKiEPFyF7movfGa1D-49" target="DgfdKiEPFyF7movfGa1D-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="DgfdKiEPFyF7movfGa1D-49" value="&lt;span&gt;inherite from base.html&lt;/span&gt;&lt;br&gt;&lt;span&gt;and extending extra information to /add_to_cart/&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="1030" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DgfdKiEPFyF7movfGa1D-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DgfdKiEPFyF7movfGa1D-51" target="DgfdKiEPFyF7movfGa1D-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DgfdKiEPFyF7movfGa1D-51" value="&lt;span&gt;route to /cart in shoppingsite.py&amp;nbsp;&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DgfdKiEPFyF7movfGa1D-53" value="&lt;span&gt;render template to /cart.html with extra info total_order and total_cost&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="910" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
